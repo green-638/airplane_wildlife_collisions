@@ -16,12 +16,10 @@ def load_data():
     
     select_columns = ['INCIDENT_YEAR', 'INCIDENT_MONTH', 'AIRPORT', 'SPECIES',
                       'SKY', 'TIME_OF_DAY', 'PHASE_OF_FLIGHT', 'STATE']
-    # remove unknown species
-    #df = df[~df['SPECIES'].str.contains('Unknown', na=False)]
     
     # create dataframe with selected columns
     df = pd.DataFrame(data=df, columns=select_columns)
-    # drop any possible N\A
+    # drop rows with N/A values
     df = df.dropna(thresh=8)
     df = df.reset_index(drop=True)
     
