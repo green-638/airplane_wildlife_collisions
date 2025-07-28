@@ -6,7 +6,7 @@ def load_data():
     Returns:
         dataframe: contains incident year and species name
     '''
-    df = pd.read_csv('dataset.csv',
+    df = pd.read_csv('Public.csv',
                      dtype={'AIRPORT_LATITUDE': str,
                             'AIRPORT_LONGITUDE': str,
                             'FLT': str,
