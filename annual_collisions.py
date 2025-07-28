@@ -1,6 +1,6 @@
 import pandas as pd
 
-def annual_collision_count(df, arpts, start_year=1990, end_year=2024):
+def annual_collisions(df, arpts, start_year=1990, end_year=2024):
     ''' creates pandas dataframe with incident counts for selected items
     within selected timeframe
     
