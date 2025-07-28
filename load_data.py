@@ -20,7 +20,7 @@ def load_data():
     # create dataframe with selected columns
     df = pd.DataFrame(data=df, columns=select_columns)
     # drop rows with N/A values
-    df = df.dropna(thresh=8)
+    df = df.dropna(thresh=7)
     df = df.reset_index(drop=True)
-    
+
     return df
