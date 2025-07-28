@@ -15,7 +15,7 @@ def load_data():
                      na_values=['UNKNOWN'])
     
     select_columns = ['INCIDENT_YEAR', 'INCIDENT_MONTH', 'AIRPORT', 'SPECIES',
-                      'SKY', 'TIME_OF_DAY', 'PHASE_OF_FLIGHT', 'STATE']
+                      'SKY', 'TIME_OF_DAY', 'PHASE_OF_FLIGHT']
     
     # create dataframe with selected columns
     df = pd.DataFrame(data=df, columns=select_columns)
