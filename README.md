@@ -1,6 +1,6 @@
 # Airplane Wildlife Collisions
 
-This project analyzes data from the FAA's Wildlife Strike Database. The goal of this project is to determine what conditions make collisions more likely, when collisions occur, and how collisions can be reduced. The projects' conclusions are in project.ipynb.
+This project analyzes data from the FAA's Wildlife Strike Database. The goal of this project is to determine what conditions make collisions more likely and when collisions occur, which is necessary to prevent collisions. The projects' conclusions are in project.ipynb.
 
 ## Scope
 The following columns from the dataset are used: INCIDENT_YEAR, INCIDENT_MONTH, AIRPORT, SPECIES, SKY, TIME_OF_DAY, and PHASE_OF_FLIGHT.
