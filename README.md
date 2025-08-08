@@ -1,4 +1,4 @@
-# Airplane Wildlife Collisions
+# Airplane Wildlife Collisions Data Analysis
 
 This project analyzes data from the FAA's Wildlife Strike Database. My goal was to provide conclusions that can guide solutions for preventing collisions. I achieved this by determining what conditions make collisions more likely and when collisions occur. The projects' conclusions are in project.ipynb.
 
